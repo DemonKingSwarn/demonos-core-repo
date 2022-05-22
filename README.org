@@ -18,7 +18,7 @@ You can add demonos-core-repo to any Arch-based Linux distribution.  Just add th
 #+begin_example
 [demonos-core-repo]
 SigLevel = Required DatabaseOptional
-Server = https://gihub.com/demonkingswarn/$repo/-/raw/main/$arch
+Server = https://github.com/DemonKingSwarn/$repo/raw/master/$arch
 #+end_example
 
 Then, sync the repositories and update your system with:
