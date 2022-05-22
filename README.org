@@ -2,10 +2,7 @@
 #+DESCRIPTION: A repository of software for DEMONOS.
 #+AUTHOR: DemonKingSwarn
 
-* About demon-core-repo
-#+CAPTION: demonos-core-repo
-#+ATTR_HTML: :alt demonos-core-repo :title demonos-core-repo :align left
-[[https://gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles04-thumb.png]]
+* About demonos-core-repo
 
 demonos-core-repo is a repository of Arch Linux packages that was created primarily for DEMONOS, which is still a work-in-progress and not a real thing yet.
 
@@ -17,8 +14,8 @@ You can add demonos-core-repo to any Arch-based Linux distribution.  Just add th
 
 #+begin_example
 [demonos-core-repo]
-SigLevel = Required DatabaseOptional
-Server = https://github.com/DemonKingSwarn/$repo/raw/master/$arch
+    SigLevel = Required DatabaseOptional
+    Server = https://github.com/DemonKingSwarn/$repo/raw/master/$arch
 #+end_example
 
 Then, sync the repositories and update your system with:
