@@ -1,5 +1,5 @@
-#+TITLE: dtos-core-repo
-#+DESCRIPTION: A repository of software for DTOS.
+#+TITLE: demonos-core-repo
+#+DESCRIPTION: A repository of software for DEMONOS.
 #+AUTHOR: DemonKingSwarn
 
 * About demon-core-repo
@@ -44,4 +44,4 @@ There are several Suckless programs (or programs Suckless in spirit) in this rep
 + myst
 
 ** Where are the Suckless config files?
-Suckless programs are configured by editing the source code and recompiling.  The packages installed from this repo are binary installations, but they do place the source code on your system.  The source code is placed in /opt.  For example, the source code for dwm-distrotube is located at /opt/dwm-distrotube.
+Suckless programs are configured by editing the source code and recompiling.  The packages installed from this repo are binary installations, but they do place the source code on your system.  The source code is placed in /opt.  For example, the source code for dwm-distrotube is located at /opt/dwm-demonkingswarn.
